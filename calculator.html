@@ -7,9 +7,15 @@
 				var num = document.getElementById("n1");
 				num.value = Math.pow(num.value, 3);
 			}
+
 			function cuadrado() {
 				var num = document.getElementById("n1");
 				num.value = Math.pow(num.value, 4);
+
+			function sin() {
+				var num = document.getElementById("n1");
+				num.value = Math.sin(num);
+
 			}
 		</script>
 	</head>
@@ -22,6 +28,9 @@
 		</p>
 		<p>
 			<button onclick="cuadrado()"> x^4 </button>
+		</p>
+		<p>
+			<button onclick="sin()"> sin(x) </button>
 		</p>
 	</body>
 </html>
